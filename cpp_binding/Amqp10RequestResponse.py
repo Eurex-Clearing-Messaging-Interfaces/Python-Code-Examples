@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from Options import Options
-from qpid_messaging import *
+from qpid.messaging import *
 
 class Amqp10RequestResponse:
     def __init__(self, options):
