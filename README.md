@@ -20,15 +20,6 @@ This example connects to the AMQP broker, opens a consumer to the broadcast queu
 
 This example connects to the broker, sends a request message and waits for a response, which should be sent by the Eurex system. It stops after receiving the response message or after time out.
 
-# cpp_binding
-
-Examples in cpp_binding folder are using the C++ version Qpid Messaging API and its Python binding. The C++ version of the API supports both AMQP 1.0 and 0-10. To run the examples:
-- Install Qpid Proton C library (only needed for AMQP 1.0 support)
-- Install Qpid Messaging C++ API
-- Install Python binding for Qpid Messaging C++ API
-- Change the hostname / IP address, port number, paths to the certificates and queue names
-- Run the examples
-
 ## SSL (Linux)
 
 The underlying C++ libraries are using the NSS tools to handle SSL. The NSS database has to be prepared before running the client and configured using environment variables.
