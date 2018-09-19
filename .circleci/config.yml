@@ -17,6 +17,7 @@ jobs:
           name: Install dependencies
           command: |
             yum install -y epel-release
+            yum update -y
             yum install -y python-pip
             pip install unittest-xml-reporting
             pip install coveralls
