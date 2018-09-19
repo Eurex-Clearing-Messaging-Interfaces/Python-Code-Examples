@@ -16,10 +16,7 @@ jobs:
       - run:
           name: Install dependencies
           command: |
-            curl -o /etc/yum.repos.d/qpid-proton-devel.repo http://repo.effectivemessaging.com/qpid-proton-stable.repo
-            curl -o /etc/yum.repos.d/qpid-cpp-devel.repo http://repo.effectivemessaging.com/qpid-cpp-stable.repo
-            curl -o /etc/yum.repos.d/qpid-python-devel.repo http://repo.effectivemessaging.com/qpid-python-stable.repo
-            yum -y install epel-release
+            yum install -y epel-release
             yum install -y python-pip
             pip install unittest-xml-reporting
             pip install coveralls
