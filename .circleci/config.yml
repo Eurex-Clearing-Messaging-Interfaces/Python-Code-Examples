@@ -20,7 +20,7 @@ jobs:
             yum install -y python-pip
             pip install unittest-xml-reporting
             pip install coveralls
-            yum -y --setopt=tsflag=nodocs install openssl cyrus-sasl cyrus-sasl-md5 cyrus-sasl-plain python-qpid-proton python-qpid python-qpid-messaging python-coverage
+            yum -y install openssl cyrus-sasl cyrus-sasl-md5 cyrus-sasl-plain python-qpid-proton python-qpid python-qpid-messaging python-coverage
       - run:
           name: Run tests
           command: |
