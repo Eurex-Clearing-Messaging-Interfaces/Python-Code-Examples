@@ -1,5 +1,5 @@
 [![CircleCI](https://circleci.com/gh/Eurex-Clearing-Messaging-Interfaces/Python-Code-Examples.svg?style=shield)](https://circleci.com/gh/Eurex-Clearing-Messaging-Interfaces/Python-Code-Examples)
-[![Coverage Status](https://coveralls.io/repos/github/Eurex-Clearing-Messaging-Interfaces/Python-Code-Examples/badge.svg?branch=circle-2.0)](https://coveralls.io/github/Eurex-Clearing-Messaging-Interfaces/Python-Code-Examples?branch=circle-2.0)
+[![Coverage Status](https://coveralls.io/repos/github/Eurex-Clearing-Messaging-Interfaces/Python-Code-Examples/badge.svg?branch=master)](https://coveralls.io/github/Eurex-Clearing-Messaging-Interfaces/Python-Code-Examples?branch=master)
 
 # pure_python
 
