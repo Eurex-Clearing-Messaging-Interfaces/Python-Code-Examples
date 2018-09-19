@@ -34,11 +34,6 @@ jobs:
             coverage html
             mkdir -p ./coverage-reports/
             cp -r htmlcov/* ./coverage-reports/
-      - run:
-          name: Upload coverage to coveralls
-          command: |
-            export COVERALLS_REPO_TOKEN=${COVERALLS_TOKEN}
-            coveralls --rcfile=.coveragerc
       - store_test_results:
           path: test-reports/
       - store_artifacts:
