@@ -4,7 +4,7 @@ jobs:
     working_directory: ~/circulate
     docker:
       - image: centos:7
-      - image: ecmi/fixml:sim
+      - image: ecdb/fixml:sim
     steps:
       - run:
           name: Install Git
